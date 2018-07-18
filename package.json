@@ -1,0 +1,33 @@
+{
+  "name": "@essential-projects/bootstrapper_contracts",
+  "publishConfig": {
+    "registry": "https://www.npmjs.com"
+  },
+  "version": "0.0.1",
+  "description": "Contains the contracts for the bootstrapper to start an application",
+  "license": "MIT",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
+  "contributors": [
+    "Christian Werner <christian.werner@5minds.de>",
+    "Sebastian Meier <sebastian.meier@5minds.de>"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@essential-projects/tslint-config": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulptraum": "^2.2.4",
+    "gulptraum-typescript": "^1.3.9",
+    "tsconfig": "^7.0.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "prepare": "npm run build",
+    "build-doc": "gulp doc",
+    "build-schemas": "gulp typescript-schema",
+    "lint": "gulp lint",
+    "test": "gulp test"
+  }
+}
