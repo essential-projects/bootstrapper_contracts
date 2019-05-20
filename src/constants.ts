@@ -1,4 +1,4 @@
-export const routerDiscoveryTag: string = 'routerDiscoveryTag';
-export const socketEndpointDiscoveryTag: string = 'socketEndpointDiscoveryTag';
-export const extensionDiscoveryTag: string = 'extensionDiscoveryTag';
-export const disposableDiscoveryTag: string = 'disposableDiscoveryTag';
+export const routerDiscoveryTag = 'routerDiscoveryTag';
+export const socketEndpointDiscoveryTag = 'socketEndpointDiscoveryTag';
+export const extensionDiscoveryTag = 'extensionDiscoveryTag';
+export const disposableDiscoveryTag = 'disposableDiscoveryTag';
